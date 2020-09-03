@@ -103,7 +103,7 @@ a {
 }
 
 .second-menu__item-burger-menu {
-  margin-right: 60px;
+  margin-right: 20px;
 }
 
 .title {
@@ -163,15 +163,15 @@ a {
 }
 
 .acceleration {
-  padding-right: 5vw;
+  padding-right: 4vw;
 }
 
 .distance {
-  padding-right: 5vw;
+  padding-right: 7vw;
 }
 
 .button-test-drive {
-  padding-right: 5vw;
+  padding-right: 3vw;
 }
 
 .button-order_color_red {
