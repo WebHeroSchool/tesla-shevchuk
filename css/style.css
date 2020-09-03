@@ -396,7 +396,110 @@ a {
 
 
 
-@media (max-width: 375px)
+@media (max-width: 375px) {
+.logo {
+	margin-left: 0;
+}
+
+.logo-tesla {
+	width: 138px;
+	height: 42px;
+}
+
+.navigation {
+	margin-top: 0;
+}
+
+.main-menu {
+	display: none;
+}
+
+.second-menu__item-store {
+	display: none;
+}
+
+.second-menu__item-go {
+	display: none;
+}
+
+.title {
+	margin-top: 30px;
+}
+
+.main-title {
+	font-size: 50px;
+	line-height: 61px;
+}
+
+.subtitle {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.image-background {
+	top: 1px;
+	width: 110%;
+  margin-left: -15px;
+}
+
+.image-main {
+	width: 357px;
+	height: 166px;
+	margin-top: 5px;
+	margin-left: 9px;
+}
+
+.short-inform {
+	flex-direction: column;
+	margin-top: 32px;
+}
+
+.short-inform-block1 {
+	margin-bottom: 38px;
+}
+
+.acceleration {
+	width: 127px;
+	height: 53px;
+	margin-left: 10px;
+  margin-right: 29px;
+}
+
+.distance {
+	width: 115px;
+	height: 53px;
+}
+
+.button-test-drive {
+	padding-right: 20px;
+}
+
+.button-order_color_red {
+	color: #FFFFFF;
+	background: #E51937;
+}
 
 
-@media (max-width: 768px)
+
+
+/*
+.section-two {
+	display: none;
+}
+.section-three {
+	display: none;
+} */
+}
+
+
+
+
+/*
+@media (max-width: 768px) {
+
+.main-menu {
+	display: none;
+}
+
+
+} */
