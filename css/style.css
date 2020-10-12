@@ -70,10 +70,6 @@ body {
   font-weight: 600;
 }
 
-.section-one__top-bar {
-	display: none;
-}
-
 .section-one__navigation {
   display: -webkit-flex;
   display: flex;
@@ -407,10 +403,6 @@ a {
 
 
 @media (max-width: 376px) {
-.section-one__top-bar {
-	display: block;
-}
-
 .logo {
 	margin-left: 0;
 }
@@ -537,6 +529,7 @@ a {
 }
 
 .section-one__images-tesla {
+	margin-top: 51px;
 	background-image: url(../img/Tesla-Wordmark-Red.png);
 	background-size: 821px;
   background-repeat: no-repeat;
@@ -604,5 +597,17 @@ a {
 @media (max-width: 1024px) {
 .image-main {
 	margin: auto;
+}
+
+.main-menu {
+	display: none;
+}
+
+.second-menu__item_store {
+	display: none;
+}
+
+.second-menu__item_go {
+	display: none;
 }
 }
