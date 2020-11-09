@@ -401,213 +401,229 @@ a {
 }
 
 
+@media (max-width: 1024px) {
 
-@media (max-width: 376px) {
-.logo {
-	margin-left: 0;
-}
+  .image-main {
+    margin: auto;
+  }
 
-.logo__img {
-	width: 138px;
-	height: 42px;
-}
+  .main-menu {
+    display: none;
+  }
 
-.section-one__navigation {
-	margin-top: 5px;
-}
+  .second-menu__item_store {
+    display: none;
+  }
 
-.main-menu {
-	display: none;
-}
+  .second-menu__item_go {
+    display: none;
+  }
 
-.second-menu__item_store {
-	display: none;
-}
-
-.second-menu__item_go {
-	display: none;
-}
-
-.second-menu__item_burger-menu {
-	margin-right: 20px;
-}
-
-.section-one__title {
-	margin-top: 30px;
-}
-
-.main-title {
-	font-size: 50px;
-	line-height: 61px;
-}
-
-.subtitle {
-	font-size: 10px;
-	line-height: 12px;
-	margin-top: -4px;
-}
-
-.image-background {
-	top: 1px;
-	width: 110%;
-  margin-left: -15px;
-}
-
-.image-main {
-	width: 357px;
-	height: 166px;
-	margin-top: 10px;
-	margin-left: 9px;
-}
-
-.section-one__short-inform {
-	flex-direction: column;
-	margin-top: 29px;
-}
-
-.inform-block1 {
-	margin-bottom: 38px;
-}
-
-.inform-block1_theme_acceleration {
-	width: 127px;
-	height: 53px;
-	margin-left: 10px;
-  margin-right: 29px;
-}
-
-.inform-block1_theme_distance {
-	width: 115px;
-	height: 53px;
-}
-
-.button-test-drive {
-	padding-right: 20px;
-}
-
-.button-order_color_red {
-	color: #FFFFFF;
-	background: #E51937;
-}
-
-.section-two {
-	display: none;
-}
-
-.section-three {
-	display: none;
-}
 }
 
 @media (max-width: 768px) {
-.logo {
-	margin-left: 16px;
+
+  .logo {
+	  margin-left: 16px;
+  }
+
+  .main-menu {
+	  display: none;
+  }
+
+  .second-menu__item_store {
+	  display: none;
+  }
+
+  .second-menu__item_go {
+	  display: none;
+  }
+
+  .second-menu__item_burger-menu {
+    margin-right: 45px;
+  }
+
+  .section-one__title {
+    margin-top: 86px;
+  }
+
+  .subtitle {
+    margin-top: 5px;
+  }
+
+  .section-one__images-tesla {
+    margin-top: 51px;
+    background-image: url(../img/Tesla-Wordmark-Red.png);
+    background-size: 821px;
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+  }
+
+  .image-background {
+    display: none;
+  }
+
+  .image-main {
+    width: 695px;
+    height: 327.64px;
+    margin-left: 40px;
+    margin-top: 52px;
+  }
+
+  .section-one__short-inform {
+    flex-direction: column;
+    margin-top: 36px;
+    margin-bottom: 60px;
+  }
+
+  .inform-block1 {
+    margin-bottom: 55px;
+  }
+
+  .inform-block1_theme_acceleration {
+    width: 220.7px;
+    height: 80.26px;
+    margin-left: -15px;
+    margin-right: 55px;
+    padding-right: 0;
+  }
+
+  .inform-block1_theme_distance {
+    width: 200.64px;
+    height: 83.12px;
+    padding-right: 0;
+  }
+
+  .button-test-drive {
+    width: 170px;
+    margin-top: 13px;
+    margin-right: 30px;
+    padding-right: 0;
+  }
+
+  .button-order_color_red {
+    color: #FFFFFF;
+    background: #E51937;
+    padding: 18px 64px 18px 64px;
+    font-size: 16px;
+  }
+
+  .section-two {
+    display: none;
+  }
+
+  .section-three {
+    display: none;
+  }
+
 }
 
-.main-menu {
-	display: none;
-}
+@media (max-width: 376px) {
 
-.second-menu__item_store {
-	display: none;
-}
+  .logo {
+    margin-left: 0;
+  }
 
-.second-menu__item_go {
-	display: none;
-}
+  .logo__img {
+    width: 138px;
+    height: 42px;
+  }
 
-.second-menu__item_burger-menu {
-  margin-right: 45px;
-}
+  .section-one__navigation {
+    margin-top: 5px;
+  }
 
-.section-one__title {
-	margin-top: 86px;
-}
+  .main-menu {
+    display: none;
+  }
 
-.subtitle {
-	margin-top: 5px;
-}
+  .second-menu__item_store {
+    display: none;
+  }
 
-.section-one__images-tesla {
-	margin-top: 51px;
-	background-image: url(../img/Tesla-Wordmark-Red.png);
-	background-size: 821px;
-  background-repeat: no-repeat;
-  background-position-y: -70px;
-}
+  .second-menu__item_go {
+    display: none;
+  }
 
-.image-background {
-  display: none;
-}
+  .second-menu__item_burger-menu {
+    margin-right: 20px;
+  }
 
-.image-main {
-	width: 695px;
-	height: 327.64px;
-	margin-left: 40px;
-	margin-top: 52px;
-}
+  .section-one__title {
+    margin-top: 30px;
+  }
 
-.section-one__short-inform {
-	flex-direction: column;
-	margin-top: 36px;
-	margin-bottom: 60px;
-}
+  .main-title {
+    font-size: 50px;
+    line-height: 61px;
+  }
 
-.inform-block1 {
-	margin-bottom: 55px;
-}
+  .subtitle {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: -4px;
+  }
 
-.inform-block1_theme_acceleration {
-	width: 220.7px;
-	height: 80.26px;
-	margin-left: -15px;
-  margin-right: 55px;
-	padding-right: 0;
-}
+  .section-one__images-tesla {
+	  background-size: 430px;
+	  background-position-y: -40px;
+    background-position-x: -20px;
+	}
 
-.inform-block1_theme_distance {
-	width: 200.64px;
-	height: 83.12px;
-	padding-right: 0;
-}
+  .image-background {
+    top: 1px;
+    width: 110%;
+    margin-left: -15px;
+  }
 
-.button-test-drive {
-	width: 170px;
-	margin-top: 13px;
-	margin-right: 30px;
- 	padding-right: 0;
-}
+  .image-main {
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+    margin-left: 5px;
+		padding-top: 0;
+  }
 
-.button-order_color_red {
-	color: #FFFFFF;
-	background: #E51937;
-	padding: 18px 64px 18px 64px;
-	font-size: 16px;
-}
+  .section-one__short-inform {
+    flex-direction: column;
+    margin-top: 15px;
+	  margin-bottom: 0;
+  }
 
-.section-two {
-	display: none;
-}
+  .inform-block1 {
+    margin-bottom: 38px;
+  }
 
-.section-three {
-	display: none;
-}
-}
+  .inform-block1_theme_acceleration {
+    width: 127px;
+    height: 53px;
+    margin-right: 40px;
+  }
 
-@media (max-width: 1024px) {
-.image-main {
-	margin: auto;
-}
+  .inform-block1_theme_distance {
+    width: 115px;
+    height: 53px;
+  }
 
-.main-menu {
-	display: none;
-}
+  .button-test-drive {
+		width: 118px;
+    margin-right: 20px;
+  }
 
-.second-menu__item_store {
-	display: none;
-}
+  .button-order_color_red {
+		font-size: 13px;
+    margin: 4px 0 0 5px;
+    padding: 12px 45px 12px 40px;
+    color: #FFFFFF;
+    background: #E51937;
+  }
 
-.second-menu__item_go {
-	display: none;
-}
+  .section-two {
+    display: none;
+  }
+
+  .section-three {
+    display: none;
+  }
+
 }
