@@ -119,11 +119,11 @@ a {
   margin-top: 64px;
 }
 
-.main-title {
+.title__main-title {
   font-size: 90px;
 }
 
-.subtitle {
+.title__subtitle {
   font-size: 15px;
   font-weight: 500;
 }
@@ -132,14 +132,14 @@ a {
 	position: relative;
 }
 
-.image-background {
+.images-tesla__image-background {
 	position: absolute;
 	top: -110px;
   width: 100%;
 	z-index: 1;
 }
 
-.image-main {
+.images-tesla__image-main {
 	display: block;
 	position: relative;
 	margin-left: 198px;
@@ -155,33 +155,33 @@ a {
 	margin-top: 20px;
 }
 
-.inform-block1 {
+.inform-in-numders {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.inform-block2 {
+.inform-in-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.inform-block1_theme_acceleration {
+.inform-in-numders__image_theme_acceleration {
   padding-right: 73px;
 }
 
-.inform-block1_theme_distance {
+.inform-in-numders__image_theme_distance {
 	padding-top: 3px;
   padding-right: 107px;
 }
 
-.button-test-drive {
+.inform-in-buttons__button_theme_test-drive {
 	padding-right: 35px;
   padding-top: 8px;
 }
 
-.button-order_color_red {
+.inform-in-buttons__button_theme_order {
 	border: 2px solid #E51937;
 	padding: 10px 40px 10px 40px;
 	color: #E51937;
@@ -193,7 +193,7 @@ a {
 	margin-top: 30px;
 }
 
-.next-page__image {
+.section-one__next-page-image {
 	display: block;
 	margin: auto;
 }
@@ -405,7 +405,7 @@ a {
 
 @media (max-width: 1024px) {
 
-  .image-main {
+  .images-tesla__image-main {
     margin: auto;
   }
 
@@ -449,7 +449,7 @@ a {
     margin-top: 86px;
   }
 
-  .subtitle {
+  .title__subtitle {
     margin-top: 5px;
   }
 
@@ -461,11 +461,11 @@ a {
     background-position-y: -70px;
   }
 
-  .image-background {
+  .images-tesla__image-background {
     display: none;
   }
 
-  .image-main {
+  .images-tesla__image-main {
     width: 695px;
     height: 327.64px;
     margin-left: 40px;
@@ -478,11 +478,11 @@ a {
     margin-bottom: 60px;
   }
 
-  .inform-block1 {
+  .inform-in-numders {
     margin-bottom: 55px;
   }
 
-  .inform-block1_theme_acceleration {
+  .inform-in-numders__image_theme_acceleration {
     width: 220.7px;
     height: 80.26px;
     margin-left: -15px;
@@ -490,13 +490,13 @@ a {
     padding-right: 0;
   }
 
-  .inform-block1_theme_distance {
+  .inform-in-numders__image_theme_distance {
     width: 200.64px;
     height: 83.12px;
     padding-right: 0;
   }
 
-  .button-test-drive {
+  .inform-in-buttons__button_theme_test-drive {
     width: 170px;
     margin-top: 13px;
     margin-right: 30px;
@@ -504,7 +504,7 @@ a {
     padding-right: 0;
   }
 
-  .button-order_color_red {
+  .inform-in-buttons__button_theme_order {
     color: #FFFFFF;
     background: #E51937;
     padding: 18px 64px 18px 64px;
@@ -556,12 +556,12 @@ a {
     margin-top: 30px;
   }
 
-  .main-title {
+  .title__main-title {
     font-size: 50px;
     line-height: 61px;
   }
 
-  .subtitle {
+  .title__subtitle {
     font-size: 10px;
     line-height: 12px;
     margin-top: -4px;
@@ -573,13 +573,13 @@ a {
     background-position-x: -20px;
 	}
 
-  .image-background {
+  .images-tesla__image-background {
     top: 1px;
     width: 110%;
     margin-left: -15px;
   }
 
-  .image-main {
+  .images-tesla__image-main {
     width: 95%;
     height: auto;
     margin-top: -3px;
@@ -593,18 +593,18 @@ a {
 	  margin-bottom: 0;
   }
 
-  .inform-block1 {
+  .inform-in-numders {
     margin-bottom: 33px;
   }
 
-  .inform-block1_theme_acceleration {
+  .inform-in-numders__image_theme_acceleration {
     width: 127px;
     height: 53px;
 	  margin-top: -3px;
     margin-right: 30px;
   }
 
-  .inform-block1_theme_distance {
+  .inform-in-numders__image_theme_distance {
     width: 115px;
     height: 53px;
 	  margin-top: 5px;
@@ -612,7 +612,7 @@ a {
 	  padding-left: 10px;
   }
 
-  .button-test-drive {
+  .inform-in-buttons__button_theme_test-drive {
 		width: 124px;
 	  margin-top: 10px;
     margin-right: 25px;
@@ -620,7 +620,7 @@ a {
 		padding-top: 0;
   }
 
-  .button-order_color_red {
+  .inform-in-buttons__button_theme_order {
 		font-size: 13px;
     margin-top: 3px;
     padding: 12px 40px 12px 40px;
