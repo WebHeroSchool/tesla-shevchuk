@@ -7,64 +7,58 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <section class="section">
-      <nav class="navigation">
+    <section class="section-one">
+      <nav class="section-one__navigation">
         <div class="logo">
-          <img src="img/Tesla-logo.svg" alt="Tesla" class="logo-tesla" />
+          <img src="img/Tesla-logo.svg" alt="Tesla" class="logo__img" />
         </div>
         <div class="main-menu">
           <a href="URL" class="main-menu__item main-menu__item_active">Model S</a>
-          <a href="URL" class="main-menu__item">Model X</a>
+          <a href="URL" class="main-menu__item main-menu__item_modelX">Model X</a>
           <a href="URL" class="main-menu__item">Model 3</a>
           <a href="URL" class="main-menu__item">Roadster</a>
           <a href="URL" class="main-menu__item">Energy</a>
         </div>
         <div class="second-menu">
-          <a href="URL" class="second-menu-item-store">Магазин</a>
-          <a href="URL" class="second-menu-item-go">Войти</a>
-          <a href="URL" class="burger-menu">
-            <img src="img/burger-menu.svg" alt="Menu burger" class="burger-menu__img" />
+          <a href="URL" class="second-menu__item second-menu__item_store">Магазин</a>
+          <a href="URL" class="second-menu__item second-menu__item_go">Войти</a>
+          <a href="URL" class="second-menu__item second-menu__item_burger-menu">
+            <img src="img/burger-menu.svg" alt="Menu burger" class="second-menu__img" />
           </a>
         </div>
       </nav>
-      <div class="title">
-        <div class="main-title">
+      <div class="section-one__title title">
+        <p class="title__main-title">
           Model S
-        </div>
-        <div class="subtitle">
+        </p>
+        <p class="title__subtitle">
           Добро пожаловать в будущее!
+        </p>
+      </div>
+      <div class="section-one__images-tesla images-tesla">
+        <div class="images-tesla__wrapper">
+          <img src="img/Tesla-Wordmark-Red.png" alt="Background text tesla" class="images-tesla__image-background" />
+        </div>
+        <div class="images-tesla__wrapper">
+          <img src="img/tesla-car.png" alt="Car's image" class="images-tesla__image-main" />
         </div>
       </div>
-      <div class="images-tesla">
-        <div class="images-tesla__inner">
-          <img src="img/Tesla-Wordmark-Red.png" alt="Background text tesla" class="image-background" />
+      <div class="section-one__short-inform">
+        <div class="inform-in-numders">
+          <img src="img/acceleration.svg" alt="Разгон" class="inform-in-numders__image inform-in-numders__image_theme_acceleration" />
+          <img src="img/distance.svg" alt="Запас хода" class="inform-in-numders__image inform-in-numders__image_theme_distance" />
         </div>
-        <div class="images-tesla__inner">
-          <img src="img/tesla-car.png" alt="Car's image" class="image-main" />
-        </div>
-      </div>
-      <div class="short-inform">
-        <div class="short-inform__inner">
-          <img src="URL" alt="Разгон" class="acceleration" />
-        </div>
-        <div class="short-inform__inner">
-          <img src="URL" alt="Запас хода" class="distance" />
-        </div>
-        <div class="short-inform__inner">
-          <img src="URL" alt="Тест драйв" class="button-test-drive" />
-        </div>
-        <div class="short-inform__inner">
-          <p class="button-order_color_red">
-            Заказать
-          </p>
+        <div class="inform-in-buttons">
+          <img src="img/Test drive  black.svg" alt="Тест драйв" class="inform-in-buttons__button inform-in-buttons__button_theme_test-drive" />
+          <a href="URL" class="inform-in-buttons__button inform-in-buttons__button_theme_order">ЗАКАЗАТЬ</a>
         </div>
       </div>
-      <div class="next-page">
-        <img src="URL" alt="Down" class="next-page__image" />
+      <div class="section-one__next-page">
+        <img src="img/vector - next page.svg" alt="Down" class="section-one__next-page-image" />
       </div>
     </section>
 
-    <section class="section">
+    <section class="section-two">
       <div class="section-two__content-left left-content">
         <div class="left-content__title">
           <p class="left-content__title_direction_left">
@@ -72,7 +66,7 @@
           </p>
         </div>
         <div class="left-content__img">
-          <img src="URL" alt="Передняя панель теслы" class="left-content__img_direction_center" />
+          <img src="img/tesla-model-s-cockpit.png" alt="Передняя панель теслы" class="left-content__img_direction_center" />
         </div>
       </div>
       <div class="section-two__content-right right-content">
@@ -86,45 +80,51 @@
         </div>
         <div class="right-content__icons icons">
           <div class="icons__inner">
-            <img src="URL" alt="Большой дисплей" class="icons-img" />
-            <p class="icons-name">
-              17 дюймов
-            </p>
-            <p class="icons-description">
-              Большой дисплей
-            </p>
+            <img src="img/screen.svg" alt="Большой дисплей" class="icons-img" />
+            <div class="icons-big-description">
+              <p class="icons-name">
+                <span class="icons-name-big">17</span> дюймов
+              </p>
+              <p class="icons-description">
+                Большой дисплей
+              </p>
+            </div>
           </div>
           <div class="icons__inner">
-            <img src="URL" alt="Наличие wifi" class="icons-img" />
-            <p class="icons-name">
-              Беспроводное<br>обновление ПО
-            </p>
-            <p class="icons-description">
-              Повышенная функциональность
-            </p>
+            <img src="img/wifi.svg" alt="Наличие wifi" class="icons-img" />
+            <div class="icons-big-description">
+              <p class="icons-name">
+                Беспроводное<br>обновление ПО
+              </p>
+              <p class="icons-description">
+                Повышенная<br>функциональность
+              </p>
+            </div>
           </div>
           <div class="icons__inner">
-            <img src="URL" alt="Объем пространства" class="icons-img" />
-            <p class="icons-name">
-              894 литра
-            </p>
-            <p class="icons-description">
-              Объем грузового пространства
-            </p>
+            <img src="img/bag.svg" alt="Объем пространства" class="icons-img" />
+            <div class="icons-big-description">
+              <p class="icons-name">
+                <span class="icons-name-big">894</span> литра
+              </p>
+              <p class="icons-description">
+                Объем грузового<br>пространства
+              </p>
+            </div>
           </div>
         </div>
         <div class="right-content__button button-right-content">
           <div class="button-right-content__wrap">
-            <img src="URL" alt="УЗНАТЬ БОЛЬШЕ" class="button-learn-more" />
+            <img src="img/Learn more 2 btn.svg" alt="УЗНАТЬ БОЛЬШЕ" class="button-learn-more" />
           </div>
           <div class="button-right-content__wrap">
-            <span class="button-order_color_white">Заказать</span>
+            <span class="button-order_color_white">ЗАКАЗАТЬ</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section-three">
       <div class="section-three__content-left">
         <div class="the-safest-car">
           <h1 class="the-safest-car__title">
@@ -141,66 +141,68 @@
           <div class="stars__item">
             <p class="stars__name">СПЕРЕДИ</p>
               <div class="stars__wrap">
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
               </div>
           </div>
           <div class="stars__item">
             <p class="stars__name">СБОКУ</p>
               <div class="stars__wrap">
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
               </div>
           </div>
           <div class="stars__item">
-            <p class="stars__name">СБОКУ <span>(СТОЙКА)</span></p>
+            <p class="stars__name">СБОКУ <span class="stars__name-inform">(СТОЙКА)</span></p>
               <div class="stars__wrap">
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
               </div>
           </div>
           <div class="stars__item">
             <p class="stars__name">ВОДИТЕЛЬ</p>
               <div class="stars__wrap">
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
               </div>
           </div>
           <div class="stars__item">
             <p class="stars__name">ПАССАЖИР</p>
               <div class="stars__wrap">
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
-                <img src="URL" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
+                <img src="img/Star.svg" alt="Оценка" class="stars__icon" />
               </div>
           </div>
         </div>
         <div class="logo-safety">
-          <img src="URL" alt="Лого безопасности" class="logo-safety__img" />
-          <p class="5stars">
-            5 звезд
-          </p>
-          <p class="safety">
-            безопасности
-          </p>
+          <img src="img/logo - 5 stars.svg" alt="Лого безопасности" class="logo-safety__img" />
+            <div class="logo-safety__description">
+              <p class="five-stars">
+                5 звезд
+              </p>
+              <p class="safety">
+                безопасности
+              </p>
+            </div>
         </div>
         <div class="button-inform">
           <div class="button-inform__wrap">
-            <img src="URL" alt="УЗНАТЬ БОЛЬШЕ" class="button-learn-more" />
+            <img src="img/Learn more 2 btn.svg" alt="УЗНАТЬ БОЛЬШЕ" class="button-learn-more" />
           </div>
           <div class="button-inform__wrap">
             <span class="button-order_white">Заказать</span>
@@ -209,13 +211,13 @@
       </div>
       <div class="section-three__content-right">
         <div class="background-text-models">
-          <img src="URL" alt="Model S" class="background-text-models__img" />
+          <img src="img/background-text Model S.png" alt="Model S" class="background-text-models__img" />
         </div>
-        <div class="car's-construction">
-          <img src="URL" alt="Конструкция машины" class="car's-construction__img" />
+        <div class="car-construction">
+          <img src="img/car construction.png" alt="Конструкция машины" class="car-construction__img" />
         </div>
         <div class="logo-school">
-          <img src="URL" alt="Логотип школы" class="logo-school__img" />
+          <img src="img/logo WHS.svg" alt="Логотип школы" class="logo-school__img" />
         </div>
       </div>
     </section>
