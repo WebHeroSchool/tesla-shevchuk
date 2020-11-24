@@ -407,6 +407,8 @@ a {
 
   .images-tesla__image-main {
     margin: auto;
+		max-width: 90%;
+		height: auto;
   }
 
   .main-menu {
@@ -466,15 +468,13 @@ a {
   }
 
   .images-tesla__image-main {
-    width: 695px;
-    height: 327.64px;
     margin-left: 40px;
     margin-top: 52px;
   }
 
   .section-one__short-inform {
     flex-direction: column;
-    margin-top: 36px;
+    margin-top: 40px;
     margin-bottom: 60px;
   }
 
@@ -580,7 +580,7 @@ a {
   }
 
   .images-tesla__image-main {
-    width: 95%;
+    max-width: 95%;
     height: auto;
     margin-top: -3px;
     margin-left: 10px;
