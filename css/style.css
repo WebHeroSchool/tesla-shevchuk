@@ -190,7 +190,7 @@ a {
 }
 
 .section-one__next-page {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .section-one__next-page-image {
@@ -205,29 +205,35 @@ a {
 
 .section-two-content-left {
 	flex: 1;
-	max-width: 68%;
+	max-width: 70%;
+}
+
+.section-two-content-left-text {
+	z-index: 2;
+  position: relative;
 }
 
 .section-two-content-left-text__title {
 	font-size: 70px;
 	color: #E51937;
-	margin-top: 40px;
+	margin-top: 71px;
   margin-left: 80px;
 }
 
 .section-two-content-left-picture__img {
 	max-width: 80vw;
+	margin-top: -85px;
 }
 
 .section-two-content-right {
 	flex: 1;
-	max-width: 32%;
+  max-height: 900px;
 	background-color: #E51937;
 	color: #FFFFFF;
 }
 
 .section-two-content-right-text {
-  margin: 60px 60px 60px 70px;
+  margin: 50px 47px 60px 45px;
 }
 
 .section-two-content-right-text__title {
@@ -239,17 +245,16 @@ a {
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 18px;
-	margin-top: 17px;
-  margin-right: 40px;
+	margin-top: 13px;
 }
 
 .section-two-content-right-icons {
-	margin: 60px 60px 60px 70px;
+	margin: 70px 60px 60px 45px;
 }
 
 .icons__wrap {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 37px;
 }
 
 .icons-big-description {
@@ -261,9 +266,30 @@ a {
 	line-height: 24px;
 }
 
+.icons-big-description__title_margin-top {
+  margin-top: -9px;
+}
+
 .icons-big-description__title_size_big {
 	font-size: 35px;
 	line-height: 43px;
+}
+
+.icons__img_direction_left {
+	margin-left: -5px;
+}
+
+.icons-big-description__title_down {
+  margin-top: 2px;
+  line-height: 19px;
+}
+
+.icons-big-description___direction_left {
+  margin-left: 24px;
+}
+
+.icons-big-description__title_up {
+  margin-top: -11px;
 }
 
 .icons-big-description__subtitle {
@@ -275,12 +301,12 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  margin-top: 220px;
+  margin-top: 172px;
 }
 
 .button-right-content__img {
 	margin-top: 5px;
-  margin-right: 50px;
+  margin-right: 24px;
 }
 
 .button-right-content__button-order {
@@ -425,6 +451,27 @@ a {
   .second-menu__item_go {
     display: none;
   }
+
+	.section-two-content-left {
+	  max-width: 640px;
+	}
+
+  .section-two-content-right-text {
+    margin: 20px 20px 20px 24px;
+	}
+
+  .section-two-content-right-icons {
+	  margin: 30px 30px 0 43px;
+	}
+
+  .icons__wrap {
+    margin-bottom: 28px;
+	}
+
+  .section-two-content-right-button {
+    margin-top: 0;
+	}
+
 
 }
 
