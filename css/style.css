@@ -63,7 +63,6 @@ table {
 
 body {
 	max-width: 1440px;
-	height: 2700px;
 	margin: auto;
   font-family: 'Montserrat';
   font-style: normal;
@@ -318,49 +317,54 @@ a {
 
 .section-three {
 	display: flex;
-  display: none;
+	margin-top: -3px;
 }
 
 .section-three-content-left {
 	flex: 1;
-	max-width: 32%;
+	max-width: 30.5%;
+	height: 901px;
 	background: #E51937;
 	color: #FFFFFF;
 }
 
 .the-safest-car {
-	margin: 60px 60px 60px 70px;
+	margin: 53px 38px 0 56px;
 }
 
 .the-safest-car__title {
 	font-size: 30px;
-	line-height: 35px;
+	line-height: 36px;
 }
 
 .the-safest-car__description {
 	font-weight: 500;
 	font-size: 15px;
-	line-height: 18px;
-	margin-top: 17px;
-	margin-right: 50px;
+	line-height: 19px;
+	margin-top: 14px;
+	margin-right: 27px;
 }
 
 .stars {
 	display: flex;
 	flex-direction: column;
-	margin: 60px 140px 60px 70px;
+	margin: 57px 90px 0 56px;
 }
 
 .stars-title {
 	font-size: 30px;
-	margin-bottom: 25px;
+	margin-bottom: 29px;
 }
 
 .stars-item {
 	display: flex;
  	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
+}
+
+.stars-item__text {
+	font-size: 17px;
 }
 
 .stars-item__text_size_small {
@@ -371,42 +375,40 @@ a {
 .logo-safety {
 	display: flex;
 	justify-content: center;
-	margin: 60px 140px 60px 70px;
+	margin: 97px 0 0 -26px;
 }
 
 .logo-safety-description {
 	display: flex;
 	flex-direction: column;
-	margin-left: 25px;
+	margin-left: 23px;
+  margin-top: -3px;
 }
 
 .logo-safety-description__five-stars {
 	font-size: 50px;
-	/* line-height: 61px; */
 }
 
 .logo-safety-description__safety {
 	font-size: 25px;
-	/* line-height: 30px; */
 }
 
 .button-inform {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 67px;
 }
 
 .button-inform__img {
-
+  margin-left: 23%;
 }
 
 .button-inform__button-order {
 	border: 2px solid #FFFFFF;
-	padding: 10px 40px 10px 40px;
+	padding: 10px 42px 8px 42px;
 	font-size: 13px;
 	font-weight: 600;
+	margin-left: 37%;
 }
 
 .section-three-content-right {
@@ -415,20 +417,26 @@ a {
 }
 
 .car-construction__img-background {
-	float: right;
 	z-index: 1;
-  margin-top: 150px;
+	margin-top: 15%;
+	margin-right: -2%;
+	float: right;
+  max-width: 100%;
   position: relative;
 }
 
 .car-construction__img {
 	z-index: 2;
   position: relative;
-  margin-top: -120px;
+	max-width: 110%;
+  margin-top: -13%;
+  margin-left: -9.5%;
 }
 
 .logo-school__img {
+  max-width: 100%;
 	float: right;
+	margin-top: 9%;
 }
 
 @media (max-width: 1366px) {
@@ -436,6 +444,10 @@ a {
 	.images-tesla__image-main {
     width: 67.5%;
   }
+
+  .main-menu__item_modelX {
+		left: 0;
+	}
 
 	.section-two-content-right-text {
 	  margin: 2.6vw 3vw 2.7vw 2.4vw;
@@ -457,6 +469,31 @@ a {
 		margin-top: 9vw;
 	}
 
+  .section-three-content-left {
+		max-width: 34.5%;
+		height: 65vw;
+	}
+
+	.the-safest-car {
+    margin: 3vw 2vw 0 3vw;
+  }
+
+  .stars {
+	  margin: 3vw 3vw 0 3vw;
+	}
+
+  .logo-safety {
+	  margin: 2vw 0 0 -26px;
+	}
+
+  .button-inform {
+		margin-top: 5vw;
+	}
+
+  .car-construction__img-background {
+		margin-right: 0;
+	}
+
 }
 
 @media (max-width: 1160px) {
@@ -465,10 +502,6 @@ a {
     margin: auto;
 		max-width: 90%;
 		height: auto;
-  }
-
-  .main-menu {
-    display: none;
   }
 
   .second-menu__item_store {
@@ -526,9 +559,87 @@ a {
 		font-size: 1.3vw;
 	}
 
+	.section-three-content-left {
+		max-width: 40%;
+		height: 63vw;
+	}
+
+	.the-safest-car {
+		margin: 2vw 2vw 0 3vw;
+	}
+
+	.the-safest-car__title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+	.the-safest-car__description {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 1vw;
+    margin-right: 2vw;
+  }
+
+	.stars {
+		margin: 2vw 3vw 0 3vw;
+	}
+
+	.stars-title {
+    font-size: 28px;
+    margin-bottom: 2vw;
+  }
+
+  .stars-item {
+		margin-bottom: 0;
+	}
+
+	.stars-item__text {
+    font-size: 13px;
+  }
+
+	.stars-item__text_size_small {
+    font-size: 8px;
+	}
+
+	.logo-safety {
+		margin: 4vw 0 0 -26px;
+	}
+
+	.button-inform {
+		margin-top: 5vw;
+	}
+
+  .button-inform__button-order {
+		margin-left: 30%;
+	}
+
+	.car-construction__img-background {
+		margin-right: 0;
+	}
+
 }
 
 @media (max-width: 960px) {
+
+	.main-menu {
+		display: none;
+	}
+
+	.section-one__title {
+		margin-top: 6vw;
+	}
+
+  .images-tesla__image-background {
+		top: -8vw;
+	}
+
+	.inform-in-numders__image_theme_acceleration {
+    padding-right: 6vw;
+  }
+
+  .inform-in-numders__image_theme_distance {
+		padding-right: 7vw;
+	}
 
   .section-two {
 		flex-direction: column;
@@ -604,6 +715,95 @@ a {
     padding: 2vw 7.8vw 2vw 8.8vw;
 	}
 
+	.section-three {
+		flex-direction: column-reverse;
+	}
+
+  .section-three-content-left {
+		max-width: 100%
+	}
+
+  .the-safest-car {
+		position: absolute;
+		margin: 8.3vw 51vw 0 4.5vw;
+	}
+
+  .the-safest-car__title {
+		font-size: 30px;
+    line-height: 36px;
+	}
+
+  .the-safest-car__description {
+		font-size: 15px;
+    line-height: 19px;
+    margin-top: 2vw;
+	}
+
+	.stars {
+    margin: 8.7vw 7vw 0 55vw;
+  }
+
+  .stars-title {
+		font-size: 30px;
+    margin-bottom: 4vw;
+	}
+
+	.stars-item {
+    margin-bottom: 1.5vw;
+  }
+
+	.stars-item__text {
+    font-size: 17px;
+  }
+
+	.stars-item__text_size_small {
+    font-size: 10px;
+  }
+
+  .logo-safety {
+		display: none;
+	}
+
+	.button-inform {
+    margin-top: 9vw;
+    margin-bottom: 10vw;
+  }
+
+	.button-inform__img {
+	  margin-left: 91%;
+	}
+
+  .button-inform__button-order {
+		font-size: 2.1vw;
+    padding: 2vw 7.8vw 2vw 8.8vw;
+		margin-left: 101%;
+	}
+
+  .section-three-content-right {
+		max-width: 100%;
+	}
+
+  .car-construction {
+		height: 70vw;
+		background-image: url(../img/1.png), url(../img/2.png);
+    background-repeat: no-repeat;
+		background-size: 96.1vw, 77vw;
+    background-position-y: 10vw, 9vw;
+		background-position-x: 0, 12.5vw;
+	}
+
+  .car-construction__img-background {
+		display: none;
+	}
+
+  .car-construction__img {
+		display: none;
+	}
+
+  .logo-school {
+		display: none;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -629,19 +829,24 @@ a {
   }
 
   .section-one__title {
-    margin-top: 86px;
+    margin-top: 11.2vw;
+  }
+
+	.title__main-title {
+    font-size: 11.7vw;
   }
 
   .title__subtitle {
     margin-top: 5px;
+		font-size: 1.9vw;
   }
 
   .section-one__images-tesla {
-    margin-top: 51px;
     background-image: url(../img/Tesla-Wordmark-Red.png);
-    background-size: 821px;
+    background-size: 108%;
     background-repeat: no-repeat;
-    background-position-y: -70px;
+		background-position-y: -9.3vw;
+    background-position-x: -1vw;
   }
 
   .images-tesla__image-background {
@@ -661,7 +866,7 @@ a {
   }
 
   .inform-in-numders {
-    margin-bottom: 55px;
+    margin-bottom: 7.2vw;
   }
 
   .inform-in-numders__image_theme_acceleration {
@@ -700,10 +905,10 @@ a {
 	}
 
   .section-two-content-left-picture {
-		margin-top: -86px;
+		margin-top: -90px;
 		background-image: url(../img/2013-tesla-model-s-cockpit-FOR-IPAD.png);
-		background-size: 100%;
-		height: 65.8vw;
+		background-size: 101%;
+		height: 66.5vw;
 		background-repeat: no-repeat;
 	}
 
@@ -713,16 +918,18 @@ a {
 
 	.section-two-content-right-text {
 		position: absolute;
-    margin: 7vw 53vw 2vw 5vw;
+    margin: 7vw 53vw 2vw 4.5vw;
   }
 
   .section-two-content-right-text__title {
     font-size: 186%;
+		line-height: 5vw;
   }
 
   .section-two-content-right-text__description {
-		margin-top: 3vw;
-		font-size: 1.9vw;
+		margin-top: 2.7vw;
+		font-size: 1.95vw;
+		line-height: 2.4vw;
 	}
 
 	.section-two-content-right-icons {
@@ -755,40 +962,103 @@ a {
   }
 
 	.section-two-content-right-button {
-    margin-top: 11vw;
-		margin-bottom: 8vw;
+    margin-top: 10.5vw;
+		margin-bottom: 7.8vw;
   }
 
   .button-right-content__img {
-		max-width: 100%;
-    margin-right: 6vw;
+    max-width: 27.6vw;
+    height: 5vw;
+		margin-right: 3vw;
 	}
 
   .button-right-content__button-order {
-		font-size: 2.2vw;
-    padding: 2vw 7.8vw 2vw 8.8vw;
+		font-size: 2.1vw;
+		padding: 2vw 7.8vw 2vw 8.8vw;
 	}
 
+	.the-safest-car {
+		position: absolute;
+		margin: 8.3vw 54vw 0 4.5vw;
+	}
 
+	.the-safest-car__title {
+		font-size: 3.9vw;
+		line-height: 4.8vw;
+	}
 
+	.the-safest-car__description {
+		font-size: 1.95vw;
+		line-height: 2.4vw;
+		margin-top: 1.6vw;
+		margin-right: 0;
+	}
 
+	.stars-title {
+		font-size: 3.9vw;
+		margin-bottom: 4vw;
+	}
 
+	.stars-item__text {
+		font-size: 2.2vw;
+	}
 
+	.stars-item__text_size_small {
+		font-size: 1.3vw;
+	}
 
+	.stars-icon__img {
+		max-width: 3.3vw;
+	}
 
+	.button-inform {
+		margin-top: 8.6vw;
+		margin-bottom: 9vw;
+	}
 
+	.button-inform__img {
+		margin-left: 73%;
+    max-width: 27.6vw;
+    height: 5vw;
+	}
 
+	.button-inform__button-order {
+		font-size: 2.1vw;
+		padding: 2vw 7.8vw 2vw 8.8vw;
+		margin-left: 81%;
+	}
 
+	.section-three-content-right {
+		max-width: 100%;
+	}
 
-  .section-three {
-    display: none;
-  }
+	.car-construction {
+		height: 70vw;
+		background-image: url(../img/1.png), url(../img/2.png);
+		background-repeat: no-repeat;
+		background-size: 96.1vw, 77vw;
+		background-position-y: 10vw, 9vw;
+		background-position-x: 0, 12.5vw;
+	}
+
+	.car-construction__img-background {
+		display: none;
+	}
+
+	.car-construction__img {
+		display: none;
+	}
+
+	.logo-school {
+		display: none;
+	}
 
 }
 
 @media (max-width: 514px) {
 
 	.section-one__images-tesla {
+		margin-top: 14vw;
 		background-size: 101%;
 		background-position-y: -4vw;
 	}
@@ -822,15 +1092,40 @@ a {
 
 	.section-two-content-right-text__description {
 		font-size: 4vw;
+		margin-top: 5.7vw;
+    line-height: 4.4vw;
 	}
 
   .section-two-content-right-icons {
 		display: none;
 	}
 
+	.car-construction {
+    height: 78vw;
+    background-size: 95vw, 106vw;
+    background-position-y: 16vw, 13vw;
+    background-position-x: 1vw, 0;
+  }
 
+	.the-safest-car {
+    position: relative;
+		margin: 6.3vw 6vw 0 8.5vw;
+	}
 
+	.the-safest-car__title {
+    font-size: 8vw;
+    line-height: 10vw;
+  }
 
+	.the-safest-car__description {
+    font-size: 3.95vw;
+    line-height: 5vw;
+    margin-top: 3.6vw;
+	}
+
+  .stars {
+		display: none;
+	}
 
 }
 
@@ -960,29 +1255,29 @@ a {
 
   .section-two-content-right-text__title {
     font-size: 188%;
+		line-height: 11vw;
   }
 
 	.section-two-content-right-text__description {
     font-size: 4vw;
+		margin-top: 2vw;
+    line-height: 5vw;
   }
 
 	.section-two-content-right-button {
     display: none;
 	}
 
+	.the-safest-car {
+		margin: 6.1vw 6vw 19vw 8.5vw;
+	}
 
+	.the-safest-car__description {
+	    margin-top: 3.2vw;
+	}
 
-
-
-
-
-
-
-
-
-
-  .section-three {
+	.button-inform {
     display: none;
-  }
+	}
 
 }
